@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="3"
+            android:rowCount="5"
+            android:orientation="horizontal"
+        >
+
+    <TextView
+            android:layout_columnSpan="3"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:textSize="20sp"
+            android:layout_gravity="fill"
+            android:id="@+id/lblPlayerX"/>
+    <Button
+            android:layout_column="0"
+            android:layout_row="1"
+            android:textSize="20sp"
+            android:id="@+id/btn1"
+            />
+    <Button
+            android:textSize="20sp"
+            android:id="@+id/btn2"
+
+            />
+    <Button
+            android:textSize="20sp"
+            android:id="@+id/btn3"
+
+            />
+    <Button
+            android:textSize="20sp"
+            android:id="@+id/btn4"
+
+            />
+    <Button
+            android:textSize="20sp"
+            android:id="@+id/btn5"
+            />
+    <Button
+            android:textSize="20sp"
+            android:id="@+id/btn6"
+            />
+    <Button
+            android:textSize="20sp"
+            android:id="@+id/btn7"
+
+            />
+    <Button
+            android:textSize="20sp"
+            android:id="@+id/btn8"
+
+            />
+    <Button
+            android:textSize="20sp"
+            android:id="@+id/btn9"
+            />
+
+    <TextView
+            android:layout_columnSpan="3"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:textSize="20sp"
+            android:layout_gravity="fill"
+            android:id="@+id/lblPlayerO"/>
+</GridLayout>
+
