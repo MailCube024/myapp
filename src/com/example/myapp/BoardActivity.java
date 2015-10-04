@@ -87,7 +87,7 @@ public class BoardActivity extends Activity {
             if (i == SIZE - 1) return Result.Win;
         }
 
-        if (moveCount == (SIZE ^ 2 - 1)) return Result.Tie;
+        if (moveCount == (int)Math.pow(SIZE,2)) return Result.Tie;
 
         return Result.Ongoing;
     }
@@ -123,6 +123,7 @@ public class BoardActivity extends Activity {
 
             board[x][y] = currentPlayer.Symbol;
             ((Button) v).setText(currentPlayer.Symbol.toString());
+            moveCount++;
 
             Result result = CheckTicTacToe(x, y, currentPlayer.Symbol);
             if (result == Result.Win)
